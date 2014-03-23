@@ -1,0 +1,27 @@
+Wellcome APC Shiny App
+----------------------
+
+A quick and dirty bit of code to help browse the recently released
+Article Processing Charges that the Wellcome Trust paid for in 
+2012/2013. http://dx.doi.org/10.6084/m9.figshare.963054
+
+This has been built using the Rstudio Shiny package, mostly as a 
+learning experience.
+
+Firstly the data was cleaned up with Refine (openrefine.org) in 
+order to remove misspellings duplicates or other human-generated
+inconsistencies.
+
+The Refine history is included for reproducibility reasons as a
+JSON formatted file, 'refine_history.json'.
+
+Installation
+------------
+
+Shiny is an R-based app, so you need to have a functioning R
+before you can start.
+
+Once you have R, Simply install shiny from CRAN with:
+
+  shiny::runGitHub('WellcomeAPCs', 'drchriscole')
+
