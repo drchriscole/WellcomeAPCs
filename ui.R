@@ -4,7 +4,7 @@ library(shiny)
 shinyUI(pageWithSidebar(
  
  # Application title
- headerPanel("Article Processing Changes paid by Wellcome Trust 2012/2013"),
+ headerPanel("Wellcome Trust APCs 2012/2013"),
  
  # Sidebar with controls to select the variable to plot against mpg
  # and to specify whether outliers should be included
