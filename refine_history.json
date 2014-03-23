@@ -1,0 +1,2988 @@
+[
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Journal title",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Journal title",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PLoS One",
+          "PLoS ONE",
+          "PLOS ONE",
+          "PLOS One",
+          "Plos One",
+          "PloS ONE",
+          "Plos ONE",
+          "PLOS  ONE",
+          "PloS One",
+          "Plos one"
+        ],
+        "to": "PLoS One"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PLoS Computational Biology",
+          "PLOS COMPUTATIONAL BIOLOGY",
+          "PLOS  Computational Biology",
+          "PLOS Computational Biology"
+        ],
+        "to": "PLoS Computational Biology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PLoS Genetics",
+          "PLOS Genetics",
+          "PLoS GENETICS",
+          "Plos Genetics"
+        ],
+        "to": "PLoS Genetics"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Neuroimage: Clinical",
+          "NeuroImage: Clinical",
+          "NeuroImage: Clinical ",
+          "Neuroimage: clinical"
+        ],
+        "to": "Neuroimage: Clinical"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Nucleic Acids Research",
+          "NUCLEIC ACIDS RESEARCH",
+          "Nucleic Acids Research ",
+          "Nucleic Acids Research\n"
+        ],
+        "to": "Nucleic Acids Research"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Journal of Biological Chemistry",
+          "JOURNAL OF BIOLOGICAL CHEMISTRY",
+          "Journal of biological chemistry"
+        ],
+        "to": "Journal of Biological Chemistry"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Nature Communications",
+          "NATURE COMMUNICATIONS",
+          "Nature communications"
+        ],
+        "to": "Nature Communications"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BMJ Open",
+          "BMJ open",
+          "BMJ OPEN"
+        ],
+        "to": "BMJ Open"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Proceedings of the National Academy of Sciences",
+          "Proceedings of the National Academy of Sciences ",
+          "Proceedings of the national Academy of Sciences"
+        ],
+        "to": "Proceedings of the National Academy of Sciences"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PLoS Pathogens",
+          "PLOS Pathogens",
+          "Plos Pathogens"
+        ],
+        "to": "PLoS Pathogens"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Journal of Neurochemistry",
+          "JOURNAL OF NEUROCHEMISTRY",
+          "Journal of Neurochemistry "
+        ],
+        "to": "Journal of Neurochemistry"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PLOS",
+          "PLoS",
+          "Plos"
+        ],
+        "to": "PLOS"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BMC Infectious Diseases",
+          "BMC Infectious Diseases ",
+          "BMC Infectious diseases"
+        ],
+        "to": "BMC Infectious Diseases"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PLosONE",
+          "PLoSONE"
+        ],
+        "to": "PLosONE"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "British Journal of Clinical Pharmacology",
+          "British journal of Clinical Pharmacology"
+        ],
+        "to": "British Journal of Clinical Pharmacology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "The American Journal of Human Genetics",
+          "THE AMERICAN JOURNAL OF HUMAN GENETICS"
+        ],
+        "to": "The American Journal of Human Genetics"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Chemmedchem",
+          "ChemMedChem"
+        ],
+        "to": "Chemmedchem"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Schizophrenia Bulletin",
+          "Schizophrenia Bulletin "
+        ],
+        "to": "Schizophrenia Bulletin"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BMC Genomics",
+          "BMC Genomics."
+        ],
+        "to": "BMC Genomics"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "The EMBO Journal",
+          "The EMBO journal"
+        ],
+        "to": "The EMBO Journal"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BioSocieties",
+          "Biosocieties"
+        ],
+        "to": "BioSocieties"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Annals of Neurology",
+          "Annals of Neurology "
+        ],
+        "to": "Annals of Neurology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Lancet",
+          "Lancet "
+        ],
+        "to": "Lancet"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Gene",
+          "GENE"
+        ],
+        "to": "Gene"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Journal of Epidemiology & Community Health",
+          "Journal of Epidemiology & Community Health "
+        ],
+        "to": "Journal of Epidemiology & Community Health"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Journal of Affective Disorders",
+          "Journal of Affective Disorders "
+        ],
+        "to": "Journal of Affective Disorders"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "FEBS Letters",
+          "Febs Letters"
+        ],
+        "to": "FEBS Letters"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "J Med Chem.",
+          "J Med Chem"
+        ],
+        "to": "Journal of Medicinal Chemistry"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "AIDS Care",
+          "Aids Care"
+        ],
+        "to": "AIDS Care"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Journal of Allergy and Clinical Immunology",
+          "Journal of allergy and clinical immunology"
+        ],
+        "to": "Journal of Allergy and Clinical Immunology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "GENETICS",
+          "Genetics "
+        ],
+        "to": "Genetics"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Structure",
+          "STRUCTURE"
+        ],
+        "to": "Structure"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Neuroscience",
+          "Neuroscience "
+        ],
+        "to": "Neuroscience"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "American Journal of Preventive Medicine",
+          "American Journal of Preventive Medicine "
+        ],
+        "to": "American Journal of Preventive Medicine"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Neuroimage",
+          "NeuroImage"
+        ],
+        "to": "Neuroimage"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Journal of Neurology, Neurosurgery & Psychiatry",
+          "Journal of Neurology, Neurosurgery & Psychiatry "
+        ],
+        "to": "Journal of Neurology, Neurosurgery & Psychiatry"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Journal of Infectious Diseases",
+          "Journal of Infectious Diseases\n\n"
+        ],
+        "to": "Journal of Infectious Diseases"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Sexually Transmitted Infections",
+          "Sexually Transmitted Infections                         "
+        ],
+        "to": "Sexually Transmitted Infections"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ACS NANO",
+          "ACS Nano"
+        ],
+        "to": "ACS Nano"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "The Journal of Biological Chemistry",
+          "The journal of Biological Chemistry"
+        ],
+        "to": "Journal of Biological Chemistry"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Magnetic Resonance in Medicine",
+          "Magnetic Resonance in Medicine "
+        ],
+        "to": "Magnetic Resonance in Medicine"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Journal of Visualized Experiments",
+          "Journal of Visualized Experiments "
+        ],
+        "to": "Journal of Visualized Experiments"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Dev World Bioeth.",
+          "Dev. World Bioeth"
+        ],
+        "to": "Dev World Bioeth."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Mbio",
+          "mBio"
+        ],
+        "to": "Mbio"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Neuropharmacology",
+          "Neuropharmacology "
+        ],
+        "to": "Neuropharmacology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "AGE",
+          "Age"
+        ],
+        "to": "Age"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Trials",
+          "Trials "
+        ],
+        "to": "Trials"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "J Immunol",
+          "J Immunol "
+        ],
+        "to": "J Immunol"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "EMBO Reports",
+          "EMBO reports"
+        ],
+        "to": "EMBO Reports"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Development",
+          "Development "
+        ],
+        "to": "Development"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Acta Crystallographica Section D,  Biological Crystallography ",
+          "Acta Crystallographica Section D: Biological Crystallography"
+        ],
+        "to": "Acta Crystallographica Section D,  Biological Crystallography "
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Respiratory Research",
+          "RESPIRATORY RESEARCH"
+        ],
+        "to": "Respiratory Research"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Malaria Journal",
+          "Malaria Journal "
+        ],
+        "to": "Malaria Journal"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MOLECULAR BIOLOGY",
+          "Molecular Biology"
+        ],
+        "to": "MOLECULAR BIOLOGY"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Journal of Virology",
+          "Journal of Virology\n"
+        ],
+        "to": "Journal of Virology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Journal of the Royal Society Interface",
+          "Journal of the Royal Society, Interface"
+        ],
+        "to": "Journal of the Royal Society Interface"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ChemBioChem",
+          "CHEMBIOCHEM"
+        ],
+        "to": "ChemBioChem"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BMC Public Health",
+          "BMC  Public Health"
+        ],
+        "to": "BMC Public Health"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PLoS Neglected Tropical Diseases",
+          "PLOS Neglected Tropical Diseases"
+        ],
+        "to": "PLoS Neglected Tropical Diseases"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Journal of Clinical Microbiology",
+          "Journal of Clinical Microbiology "
+        ],
+        "to": "Journal of Clinical Microbiology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Journal of Cerebral Blood Flow and Metabolism",
+          "Journal of cerebral blood flow and metabolism"
+        ],
+        "to": "Journal of Cerebral Blood Flow and Metabolism"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Journal of Medical Virology",
+          "Journal of Medical Virology "
+        ],
+        "to": "Journal of Medical Virology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Journal of Molecular Endocrinology",
+          "Journal of molecular Endocrinology"
+        ],
+        "to": "Journal of Molecular Endocrinology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Human Molecular Genetics",
+          "Human molecular genetics"
+        ],
+        "to": "Human Molecular Genetics"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "JOURNAL OF BACTERIOLOGY",
+          "Journal of Bacteriology"
+        ],
+        "to": "JOURNAL OF BACTERIOLOGY"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Social Science & Medicine",
+          "Social Science & Medicine "
+        ],
+        "to": "Social Science & Medicine"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Journal of Neuroscience",
+          "Journal of Neuroscience "
+        ],
+        "to": "Journal of Neuroscience"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Current Biology",
+          "CURRENT BIOLOGY"
+        ],
+        "to": "Current Biology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "RNA Biology",
+          "RNA biology"
+        ],
+        "to": "RNA Biology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Journal of Medicinal Chemistry",
+          "Journal of Medicinal Chemistry "
+        ],
+        "to": "Journal of Medicinal Chemistry"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Clinical Infectious Diseases",
+          "Clinical Infectious Diseases "
+        ],
+        "to": "Clinical Infectious Diseases"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Proceedings of the National Academy of Sciences of the United States of America",
+          "Proceedings of the National Academy of Sciences of the United States of America "
+        ],
+        "to": "Proceedings of the National Academy of Sciences of the United States of America"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Journal title",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Journal title",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Americal Journal of Psychiatry",
+          "American Journal of Psychiatry"
+        ],
+        "to": "American Journal of Psychiatry"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BMC Genomics",
+          "BMS Genomics"
+        ],
+        "to": "BMC Genomics"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "International Journal of Behavioral Nutrition and Physical Activity",
+          "International Journal of Behavioural Nutrition and Physical Activity"
+        ],
+        "to": "International Journal of Behavioral Nutrition and Physical Activity"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Pflugers Archive",
+          "Pflugers Archiv"
+        ],
+        "to": "Pflugers Archiv"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Nucleic Acids Research",
+          "Nucleic Acid Research"
+        ],
+        "to": "Nucleic Acids Research"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Antimicrobial Agents and Chemotherapy",
+          "Antimicrobial Agfents and Chemotherapy"
+        ],
+        "to": "Antimicrobial Agents and Chemotherapy"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Bioinformatics",
+          "Biinformatics"
+        ],
+        "to": "Bioinformatics"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Journal of Behavior Therapy and Experimental Psychiatry",
+          "Journal of Behaviour therapy and Experimental Psychiatry"
+        ],
+        "to": "Journal of Behavior Therapy and Experimental Psychiatry"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Hepatology",
+          "Heptology"
+        ],
+        "to": "Hepatology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "European Child and Adolescent Psychiatty",
+          "European Child and Adolescent Psychiatry"
+        ],
+        "to": "European Child and Adolescent Psychiatty"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "International Journal of Epidemiology",
+          "International Joural of Epidemiology"
+        ],
+        "to": "International Journal of Epidemiology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PLoS Neglected Tropical Diseases",
+          "PLoS Negected Tropical Diseases"
+        ],
+        "to": "PLoS Neglected Tropical Diseases"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "International Journal of Epidemiology",
+          "Inyernational Journal of Epidemiology"
+        ],
+        "to": "International Journal of Epidemiology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "British Journal of Psychiatry",
+          "Britsh Journal of Psychiatry"
+        ],
+        "to": "British Journal of Psychiatry"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Biochemical Journal",
+          "Biochemical Journals"
+        ],
+        "to": "Biochemical Journal"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Journal od Clinical Endocrinology",
+          "Journal of Clinical Endocrinology"
+        ],
+        "to": "Journal of Clinical Endocrinology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Journal of Visualized Experiments",
+          "Journal of Visualized Experiements"
+        ],
+        "to": "Journal of Visualized Experiments"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BIOLOGICAL CHEMISTRY",
+          "Biologicial Chemistry"
+        ],
+        "to": "Biological Chemistry"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Parasitology",
+          "Parsitology"
+        ],
+        "to": "Parasitology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "British Journal of Ophthalmology",
+          "British Journal of Opthalmology"
+        ],
+        "to": "British Journal of Ophthalmology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Angewande Chemie",
+          "Angewandte Chemie"
+        ],
+        "to": "Angewandte Chemie"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Epigentics",
+          "Epigenetics"
+        ],
+        "to": "Epigenetics"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Behaviour Research and Therapy",
+          "Behavior Research and Therapy"
+        ],
+        "to": "Behaviour Research and Therapy"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Genetic Epidemiology",
+          "Genetic Epidemology"
+        ],
+        "to": "Genetic Epidemiology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "The American Journal of Human Genetics",
+          "The Americal Journal of Human Genetics"
+        ],
+        "to": "The American Journal of Human Genetics"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "British Journal of Pharmacology",
+          "British Jounal of Pharmacology"
+        ],
+        "to": "British Journal of Pharmacology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Trends in Neurosciences",
+          "Trends in Neuroscience"
+        ],
+        "to": "Trends in Neurosciences"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Biochimica et Bioohysica Acta - Molecular Basis of Disease",
+          "Biochimica et Biophysica Acta - Molecular Basis of Disease"
+        ],
+        "to": "Biochimica et Bioohysica Acta - Molecular Basis of Disease"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Antimicrobial Agents and Chemotherapy",
+          "Antimicobial Agents and Chemotherapy"
+        ],
+        "to": "Antimicrobial Agents and Chemotherapy"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Journal title",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Journal title",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Acta Crystallographica, Section D"
+        ],
+        "to": "Acta Crystallographica Section D,  Biological Crystallography "
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Journal title",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Journal title",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Acta Crystallography D"
+        ],
+        "to": "Acta Crystallographica Section D,  Biological Crystallography "
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Journal title",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Journal title",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Acta D"
+        ],
+        "to": "Acta Crystallographica Section D,  Biological Crystallography "
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Journal title",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Journal title",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Acta Neuropathol"
+        ],
+        "to": "Acta Neuropathologica"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BioMed Central",
+          "BioMed Central ",
+          "Biomed Central",
+          "BioMed central"
+        ],
+        "to": "BioMed Central"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Oxford University Press",
+          "Oxford University Press\n",
+          "Oxford University Press ",
+          "OXFORD UNIVERSITY PRESS"
+        ],
+        "to": "Oxford University Press"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Elsevier",
+          "Elsevier ",
+          "ELSEVIER"
+        ],
+        "to": "Elsevier"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "American Society for Microbiology",
+          "American Society for Microbiology ",
+          "American Society for Microbiology \n"
+        ],
+        "to": "American Society for Microbiology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BMJ Group",
+          "BMJ group",
+          "BMJ Group "
+        ],
+        "to": "BMJ Group"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PLoS",
+          "PLOS",
+          "Plos"
+        ],
+        "to": "PLoS"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "The Company of Biologists",
+          "THE COMPANY OF BIOLOGISTS",
+          "The company of Biologists"
+        ],
+        "to": "The Company of Biologists"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Nature Publishing Group",
+          "Nature Publishing Group ",
+          "Nature publishing group"
+        ],
+        "to": "Nature Publishing Group"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "American Society for Biochemistry and Molecular Biology",
+          "American Society for Biochemistry and Molecular Biology "
+        ],
+        "to": "American Society for Biochemistry and Molecular Biology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "The Sheridan Press",
+          "The Sheridan Press "
+        ],
+        "to": "The Sheridan Press"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BMJ Publishing Group",
+          "BMJ PUBLISHING GROUP"
+        ],
+        "to": "BMJ Publishing Group"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Dartmouth Journal Services",
+          "Dartmouth Journal Services "
+        ],
+        "to": "Dartmouth Journal Services"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "John Wiley & Sons",
+          "JOHN WILEY & SONS"
+        ],
+        "to": "John Wiley & Sons"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "John Wiley & Sons Inc",
+          "John Wiley & Sons, Inc. "
+        ],
+        "to": "John Wiley & Sons Inc"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "International Union Against Tuberculosis and Lung Disease",
+          "International Union Against tuberculosis and Lung Disease"
+        ],
+        "to": "International Union Against Tuberculosis and Lung Disease"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "The Endocrine Society",
+          "THE ENDOCRINE SOCIETY"
+        ],
+        "to": "The Endocrine Society"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "American Chemical Society",
+          "AMERICAN CHEMICAL SOCIETY"
+        ],
+        "to": "American Chemical Society"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PLoS (Public Library of Science)",
+          "PLoS Public Library of Science"
+        ],
+        "to": "PLoS"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "The Royal Society",
+          "The royal Society"
+        ],
+        "to": "The Royal Society"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Wiley Subscription Services  Inc.",
+          "Wiley Subscription Services Inc"
+        ],
+        "to": "Wiley Subscription Services  Inc."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SPRINGER-VERLAG GMBH",
+          "Springer-Verlag GmbH"
+        ],
+        "to": "SPRINGER-VERLAG GMBH"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cadmus Journal Services",
+          "CADMUS JOURNAL SERVICES"
+        ],
+        "to": "Cadmus Journal Services"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Nature",
+          "Nature "
+        ],
+        "to": "Nature"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "American Psychological Association",
+          "American Psychological Association "
+        ],
+        "to": "American Psychological Association"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Karger",
+          "KARGER"
+        ],
+        "to": "Karger"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Sage",
+          "SAGE"
+        ],
+        "to": "Sage"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Portland Press Ltd",
+          "PORTLAND PRESS LTD"
+        ],
+        "to": "Portland Press Ltd"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Springer",
+          "Springer "
+        ],
+        "to": "Springer"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BMJ",
+          "BMJ "
+        ],
+        "to": "BMJ"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "National Academy of Sciences, USA",
+          "National Academy of Sciences USA"
+        ],
+        "to": "National Academy of Sciences, USA"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "International Union of Crystallography",
+          "International Union of Crystallography "
+        ],
+        "to": "International Union of Crystallography"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Wiley",
+          "Wiley "
+        ],
+        "to": "Wiley"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Wolters Kluwer Health ",
+          "Wolters Kluwer Health"
+        ],
+        "to": "Wolters Kluwer Health "
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Wiley-Blackwell",
+          "Wiley/Blackwell"
+        ],
+        "to": "Wiley-Blackwell"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cadmus",
+          "Cadmus "
+        ],
+        "to": "Cadmus"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Portland Press",
+          "Portland press"
+        ],
+        "to": "Portland Press"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BioScientifica",
+          "Bioscientifica"
+        ],
+        "to": "BioScientifica"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "National Academy of Sciences",
+          "National Academy of Sciences "
+        ],
+        "to": "National Academy of Sciences"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Taylor and Francis",
+          "Taylor and Francis "
+        ],
+        "to": "Taylor and Francis"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SAGE Publications",
+          "Sage Publications"
+        ],
+        "to": "SAGE Publications"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "American Society of Hematology",
+          "American Society of Haematology",
+          "American Society of Hamatology"
+        ],
+        "to": "American Society of Hematology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Society for General Microbiology",
+          "Society for Genermal Microbiology"
+        ],
+        "to": "Society for General Microbiology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Society for Neuroscience",
+          "Society for Neurosciences"
+        ],
+        "to": "Society for Neuroscience"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Dartmouth Journal Services",
+          "Darmouth Journal Services"
+        ],
+        "to": "Dartmouth Journal Services"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "American Society of Hematology",
+          "American Society of Hamatology"
+        ],
+        "to": "American Society of Hematology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "The Company of Biologists",
+          "The company of Biolgists"
+        ],
+        "to": "Company of Biologists"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Landes Bioscience",
+          "Landes Biosciences"
+        ],
+        "to": "Landes Bioscience"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "The Endocrine Society",
+          "The Endrocrine Society"
+        ],
+        "to": "The Endocrine Society"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "American Society for Biochemistry and Molecular Biology",
+          "American Society for Biochemistry and Molecular Biolgy"
+        ],
+        "to": "American Society for Biochemistry and Molecular Biology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Wolters Kluwer",
+          "Wolters Kluwers"
+        ],
+        "to": "Wolters Kluwer"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Benthan Science Publishers",
+          "Bentham Science Publishers"
+        ],
+        "to": "Benthan Science Publishers"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "The Endocrine Society",
+          "The Endocrine Socety"
+        ],
+        "to": "The Endocrine Society"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Oxford University Press",
+          "Oxford Univesity Press"
+        ],
+        "to": "Oxford University Press"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Biophysical Society",
+          "Byophysical Society"
+        ],
+        "to": "Biophysical Society"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Wiley-Blackwell",
+          "Wiley Blackwell"
+        ],
+        "to": "Wiley-Blackwell"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MYJoVE Corporation",
+          "My JOVE corporation"
+        ],
+        "to": "MyJoVE Corporation"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cambridge Univ Press",
+          "Cambridge Uni Press"
+        ],
+        "to": "Cambridge Univ Press"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cadmus Journal Services",
+          "CADMUS JOURNAL SERVICE "
+        ],
+        "to": "Cadmus Journal Services"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ASBMB/Cadmus",
+          "ASBMB Cadmus"
+        ],
+        "to": "ASBMB/Cadmus"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Company of Biologists",
+          "Company of Biologist"
+        ],
+        "to": "Company of Biologists"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "American Society for Biochemistry and Molecular Biology",
+          "American Soc for Biochemistry and Molecular Biology",
+          "The American Society for Biochemistry and Molecular Biology",
+          "The American Society for Biochemistry and Molecular Biology, Inc"
+        ],
+        "to": "American Society for Biochemistry and Molecular Biology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "John Wiley & Sons",
+          "John Wiley & Sons Ltd",
+          "John Wiley & Sons Inc"
+        ],
+        "to": "John Wiley & Sons"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "American Society for Biochemistry and Molecular Biology",
+          "The American Society for Biochemistry and Molecular Biology",
+          "The American Society for Biochemistry and Molecular Biology, Inc"
+        ],
+        "to": "American Society for Biochemistry and Molecular Biology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Wiley Subscription Services  Inc.",
+          "Wiley Subscription Services",
+          "Wiley Subscription Serviices Inc"
+        ],
+        "to": "Wiley Subscription Services  Inc."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "American Physiological Society",
+          "The American Physiological Society"
+        ],
+        "to": "American Physiological Society"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Society of Leukocyte Biology",
+          "Society for Leukocyte Biology"
+        ],
+        "to": "Society of Leukocyte Biology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BioMed Central",
+          "BioMed Central Ltd"
+        ],
+        "to": "BioMed Central"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "The Journal of Visualized Experiments",
+          "Journal of Visualized Experiments"
+        ],
+        "to": "Journal of Visualized Experiments"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "John Wiley and Sons",
+          "John Wiley and Sons Ltd"
+        ],
+        "to": "John Wiley and Sons"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "National Academy of Sciences",
+          "National Academy of Sciences, USA"
+        ],
+        "to": "National Academy of Sciences"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "The Endocrine Society",
+          "Endocrine Society"
+        ],
+        "to": "Endocrine Society"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Frontiers Media SA",
+          "Frontiers Media"
+        ],
+        "to": "Frontiers Media SA"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Society for General Microbiology",
+          "Society of General Microbiology"
+        ],
+        "to": "Society for General Microbiology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cold Spring Harbor",
+          "Cold Spring Harbor Press"
+        ],
+        "to": "Cold Spring Harbor Press"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "The Sheridan Press",
+          "Sheridan Press"
+        ],
+        "to": "Sheridan Press"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Portland Press Ltd",
+          "Portland Press"
+        ],
+        "to": "Portland Press Ltd"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Federation of American Societies for Experimental Biology",
+          "Federation of American Societies for Experimental Biology (FASEB)"
+        ],
+        "to": "Federation of American Societies for Experimental Biology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Sage Publications Ltd",
+          "Sage Publications Inc"
+        ],
+        "to": "Sage Publications Ltd"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "American Society for Microbiology",
+          "ASM (American Society for Microbiology)"
+        ],
+        "to": "American Society for Microbiology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BMJ Publishing Group",
+          "BMJ Publishing Group Ltd"
+        ],
+        "to": "BMJ Publishing Group"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "International Union of Crystallography",
+          "International Union of Crystallography (iucr)"
+        ],
+        "to": "International Union of Crystallography"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "John Wiley & Sons Ltd",
+          "John Wiley & Sons Inc"
+        ],
+        "to": "John Wiley & Sons Ltd"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "The Company of Biologists Ltd",
+          "Company of Biologists Ltd"
+        ],
+        "to": "Company of Biologists Ltd"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Future Medicine",
+          "Future Medicine Ltd"
+        ],
+        "to": "Future Medicine"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Royal Society for Chemistry",
+          "Royal Society of Chemistry"
+        ],
+        "to": "Royal Society of Chemistry"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Wiley Subscription Services  Inc.",
+          "Wiley Subscription Serviices Inc"
+        ],
+        "to": "Wiley Subscription Services  Inc."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Company of Biologists",
+          "Company of Biologists Ltd"
+        ],
+        "to": "Company of Biologists Ltd"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Royal College of Psychiatrists",
+          "The Royal College of Psychiatrists"
+        ],
+        "to": "Royal College of Psychiatrists"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Impact Journals LLC",
+          "Impact Journals"
+        ],
+        "to": "Impact Journals LLC"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Oxford University Press",
+          "Oxford University Press (OUP)"
+        ],
+        "to": "Oxford University Press"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "The American Society for Biochemistry and Molecular Biology",
+          "The American Society for Biochemistry and Molecular Biology, Inc"
+        ],
+        "to": "The American Society for Biochemistry and Molecular Biology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "American Society for Microbiology",
+          "American Society of Microbiology"
+        ],
+        "to": "American Society for Microbiology"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "John Wiley & Sons Ltd",
+          "John Wiley & Sons"
+        ],
+        "to": "John Wiley & Sons Ltd"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "American Society for Biochemistry and Molecular Biology",
+          "The American Society for Biochemistry and Molecular Biology"
+        ],
+        "to": "American Society for Biochemistry and Molecular Biology"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ACS"
+        ],
+        "to": "ACS Publications"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ACS (Amercian Chemical Society) Publications"
+        ],
+        "to": "ACS Publications"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SPRINGER-VERLAG GMBH",
+          "Springer - Verlag GMBH",
+          "Springer-Veriag GmbH "
+        ],
+        "to": "SPRINGER-VERLAG GMBH"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Taylor & Francis",
+          "Taylor and Francis"
+        ],
+        "to": "Taylor & Francis"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Sage Publishers",
+          "Sage Publishing"
+        ],
+        "to": "Sage Publishing"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Elsevier (Cell Press)",
+          "Elsevier/Cell Press"
+        ],
+        "to": "Elsevier"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Wiley-Blackwell",
+          "Wliey-Blackwell"
+        ],
+        "to": "Wiley-Blackwell"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Society of Neuroscience",
+          "SOCIETY OF NEURO SCIENCES"
+        ],
+        "to": "Society of Neuroscience"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Wiley-VCH",
+          "Wiley VCH"
+        ],
+        "to": "Wiley-VCH"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SPRINGER-VERLAG GMBH",
+          "Springer-Veriag GmbH "
+        ],
+        "to": "SPRINGER-VERLAG GMBH"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cold Spring Harbor Press",
+          "Cold Spring Habour Press"
+        ],
+        "to": "Cold Spring Harbor Press"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cadmus Journal Services",
+          "Camdus Journal Services"
+        ],
+        "to": "Cadmus Journal Services"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Society for Neuroscience",
+          "Society of Neuroscience"
+        ],
+        "to": "Society for Neuroscience"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Nature",
+          "Nature PG"
+        ],
+        "to": "Nature Publishing Group"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Society for Neuroscience",
+          "Society of Neuroscience"
+        ],
+        "to": "Society for Neuroscience"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Elsevier",
+          "Elsevier B.V.",
+          "Elsevier Ltd"
+        ],
+        "to": "Elsevier"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cenveo Publisher services",
+          "ASBMB/Cenveo Publisher Services",
+          "Cenveo Publisher Services/ASM JV1"
+        ],
+        "to": "Cenveo Publisher services"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "John Wiley & Sons Ltd",
+          "John Wiley and Sons",
+          "Wiley & Son"
+        ],
+        "to": "John Wiley & Sons Ltd"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cenveo Publisher services",
+          "Cenveo Publisher Services/ASM JV1"
+        ],
+        "to": "Cenveo Publisher services"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Taylor & Francis",
+          "Taylor & Francis Journals "
+        ],
+        "to": "Taylor & Francis"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Society for Endocrinology",
+          "Publisher Society for Endocrinology"
+        ],
+        "to": "Society for Endocrinology"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Wiley",
+          "Wiley-VCH"
+        ],
+        "to": "Wiley"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Elsevier B.V.",
+          "Elsevier Ltd"
+        ],
+        "to": "Elsevier"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Springer",
+          "Springer Verlag"
+        ],
+        "to": "Springer"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Dartmouth Journal Services",
+          "Dartmouth Journals"
+        ],
+        "to": "Dartmouth Journal Services"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cambridge University Press",
+          "Cambridge Univ Press"
+        ],
+        "to": "Cambridge University Press"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Royal Society",
+          "The Royal Society"
+        ],
+        "to": "Royal Society"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Wolters Kluwer",
+          "Wolters Kluwer Health "
+        ],
+        "to": "Wolters Kluwer"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Oxford University Press",
+          "Oxford Univ Press"
+        ],
+        "to": "Oxford University Press"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cold Spring Harbor Press",
+          "Cold Spring Harbor Publications"
+        ],
+        "to": "Cold Spring Harbor Press"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "American Chemical Society",
+          "American Chemical Society Publications"
+        ],
+        "to": "American Chemical Society"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cold Spring Harbor Laboratory Press",
+          "Cold Spring Harbor Press"
+        ],
+        "to": "Cold Spring Harbor Press"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Oxford Journals",
+          "Oxford Journals (OUP)"
+        ],
+        "to": "Oxford University Press"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ACS Publications"
+        ],
+        "to": "American Chemical Society"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CSHLP"
+        ],
+        "to": "Cold Spring Harbor Press"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Elseveier Science"
+        ],
+        "to": "Elsevier"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Elsevier / Cell Science"
+        ],
+        "to": "Elsevier"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NPG"
+        ],
+        "to": "Nature Publishing Group"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NATURE PUBLISHING GROUP LTD"
+        ],
+        "to": "NATURE PUBLISHING GROUP"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NATURE PUBLISHING GROUP"
+        ],
+        "to": "Nature Publishing Group"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Nature Publishing"
+        ],
+        "to": "Nature Publishing Group"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "OUP"
+        ],
+        "to": "Oxford University Press"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Public Library of Science"
+        ],
+        "to": "PLoS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PubMed"
+        ],
+        "to": "PubMed Central"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Sage Publications Ltd"
+        ],
+        "to": "SAGE Publications"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Sage Publishing"
+        ],
+        "to": "SAGE Publications"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "T&F"
+        ],
+        "to": "Taylor & Francis"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BMJ"
+        ],
+        "to": "BMJ Publishing"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BMJ Group"
+        ],
+        "to": "BMJ Publishing"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BMJ Publishing Group"
+        ],
+        "to": "BMJ Publishing"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BMJ Journals"
+        ],
+        "to": "BMJ Publishing"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "British Medical Journal"
+        ],
+        "to": "BMJ Publishing"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cadmus"
+        ],
+        "to": "Cadmus Journal Services"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "John Wiley"
+        ],
+        "to": "John Wiley & Sons Ltd"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MY JOVE CORP"
+        ],
+        "to": "MyJoVE Corporation"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Journal of Visualized Experiments"
+        ],
+        "to": "MyJoVE Corporation"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "JoVE"
+        ],
+        "to": "MyJoVE Corporation"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "National Academy of Sciences"
+        ],
+        "to": "National Academy of Sciences of the United States of America"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "RSC"
+        ],
+        "to": "Royal Society of Chemistry"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "RSC Publishing"
+        ],
+        "to": "Royal Society of Chemistry"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SAGE Publications"
+        ],
+        "to": "SAGE Publications"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Sage"
+        ],
+        "to": "SAGE Publications"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Springer-Verlag GmbH, Heidelberger Platz 3, D-14197 Berlin"
+        ],
+        "to": "Springer-Verlag GmbH"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Springer-Verlag GMBH & Ci"
+        ],
+        "to": "Springer-Verlag GmbH"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SPRINGER-VERLAG GMBH"
+        ],
+        "to": "Springer-Verlag GmbH"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Wolters Kluwer N.V./Lippinott"
+        ],
+        "to": "Wolters Kluwer"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Publisher",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Publisher",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BioMed Central Limited"
+        ],
+        "to": "BioMed Central"
+      }
+    ]
+  }
+]
