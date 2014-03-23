@@ -10,7 +10,7 @@ library('ggplot2')
 #mpgData$am <- factor(mpgData$am, labels = c("Automatic", "Manual"))
 
 # read data
-dat = read.delim(file='~/Downloads/University-returns_for_figshare_FINAL-xlsx.tsv')
+dat = read.delim(file='data/University-returns_for_figshare_FINAL-xlsx.tsv')
 names(dat) <- c('PMID','Publisher','Journal','Article','cost')
 
 # calc mean & SD cost by publisher
