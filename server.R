@@ -23,54 +23,61 @@ pub.dat = cbind(pub.dat,total=pub.dat$mean*pub.dat$count)
 # calc mean & SD by journal
 new = ddply(dat,~Journal,summarise,mean=mean(cost),sd=sd(cost))
 jrnl.dat = cbind(new,count=ddply(dat,~Journal,nrow)[,2])
+jrnl.dat = cbind(jrnl.dat,total=jrnl.dat$mean*jrnl.dat$count)
 
 # Define server logic required to plot various variables against mpg
 shinyServer(function(input, output) {
  
- # Compute the forumla text in a reactive expression since it is 
- # shared by the output$caption and output$mpgPlot expressions
- #formulaText <- reactive({
- # paste("mpg ~", input$variable)
- #})
+  dataToPlot <- reactive({
+    paste(input$type)
+  })
  
- # Return the formula text for printing as a caption
-#output$caption <- renderText({
- # formulaText()
- #})
+  numberToPlot <- reactive({
+    as.numeric(paste(input$number))
+  })
  
- # Generate a plot of the requested variable against mpg and only 
- # include outliers if requested
- #output$mpgPlot <- renderPlot({
- # boxplot(as.formula(formulaText()), 
- #         data = mpgData,
- #         outline = input$outliers)
- #})
+  valueToPlot <- reactive({
+    print(input$costCalc)
+  })
  
- numberToPlot <- reactive({
-  as.numeric(paste(input$number))
- })
- 
- valueToPlot <- reactive({
-  print(input$costCalc)
- })
- 
- output$pubPlot <- renderPlot({
-  #val = valueToPlot()
-  if (valueToPlot() == "mean") {
-    print(ggplot(head(pub.dat[order(pub.dat$mean,decreasing=input$decreasing),],n=numberToPlot()),aes(x=Publisher,y=mean)) 
-          + geom_errorbar(aes(ymin=mean-sd, ymax=mean+sd), width=.1) 
-          + geom_point()
-          + scale_x_discrete(limits = head(pub.dat[order(pub.dat$mean,decreasing=input$decreasing),1],n=numberToPlot()))
-          + scale_y_continuous(name="Mean Cost (GBP)")
-          + coord_flip()
-    )
-  } else {
-   print(ggplot(head(pub.dat[order(pub.dat$total,decreasing=input$decreasing),],n=numberToPlot()),aes(x=Publisher,y=total)) 
-         + geom_bar(stat="identity") 
-         + coord_flip()
-   )
-
-  }
-  #plot(head(pub.dat$mean,n=numberToPlot())) 
- })
+  output$pubPlot <- renderPlot({
+  
+    ## TODO - all these ifs are a bit nasty. Make more generic
+    if (dataToPlot() == 'pub') {
+      if (valueToPlot() == "mean") {
+        print(ggplot(head(pub.dat[order(pub.dat$mean,decreasing=input$decreasing),],n=numberToPlot()),aes(x=Publisher,y=mean)) 
+              + geom_errorbar(aes(ymin=mean-sd, ymax=mean+sd), width=.1) 
+              + geom_point()
+              + scale_x_discrete(limits = head(pub.dat[order(pub.dat$mean,decreasing=input$decreasing),1],n=numberToPlot()))
+              + scale_y_continuous(name="Mean Cost (GBP)")
+              + coord_flip()
+        )
+      } else {
+        print(ggplot(head(pub.dat[order(pub.dat$total,decreasing=input$decreasing),],n=numberToPlot()),aes(x=Publisher,y=total)) 
+              + geom_bar(stat="identity") 
+              + scale_y_continuous(name="Total Cost (GBP)")
+              + coord_flip()
+        )
+  
+      }
+    } else {
+      if (valueToPlot() == "mean") {
+        print(ggplot(head(jrnl.dat[order(jrnl.dat$mean,decreasing=input$decreasing),],n=numberToPlot()),aes(x=Journal,y=mean)) 
+              + geom_errorbar(aes(ymin=mean-sd, ymax=mean+sd), width=.1) 
+              + geom_point()
+              + scale_x_discrete(limits = head(jrnl.dat[order(jrnl.dat$mean,decreasing=input$decreasing),1],n=numberToPlot()))
+              + scale_y_continuous(name="Mean Cost (GBP)")
+              + coord_flip()
+        )
+      } else {
+        print(ggplot(head(jrnl.dat[order(jrnl.dat$total,decreasing=input$decreasing),],n=numberToPlot()),aes(x=Journal,y=total)) 
+              + geom_bar(stat="identity")
+              + scale_y_continuous(name="Total Cost (GBP)")
+              + coord_flip()
+        )
+    
+      }
+   
+    }
+  })
 })
