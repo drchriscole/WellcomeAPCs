@@ -9,6 +9,10 @@ shinyUI(pageWithSidebar(
  # Sidebar with controls to select the variable to plot against mpg
  # and to specify whether outliers should be included
  sidebarPanel(
+  selectInput("type", "Plot data by:",
+              list("Journal" = "jrnl",
+                   "Publisher" = "pub")),
+  
   selectInput("costCalc", "Cost calculation:",
               list("Mean" = "mean",
                    "Total" = "total")),
