@@ -23,5 +23,5 @@ before you can start.
 
 Once you have R, Simply install shiny from CRAN with:
 
-  shiny::runGitHub('WellcomeAPCs', 'drchriscole')
+  runGitHub('WellcomeAPCs', 'drchriscole')
 
