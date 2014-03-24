@@ -25,3 +25,14 @@ Once you have R, Simply install shiny from CRAN with:
 
   runGitHub('WellcomeAPCs', 'drchriscole')
 
+Troubleshooting
+---------------
+
+If you're on a Mac you may get an error when trying to tun the 
+above command. This is due to an odd certificate configuration 
+error. Follow the instructions from this link:
+
+  http://janhellevik.com/?p=793
+
+You should then be able to use runGitHub directly.
+
