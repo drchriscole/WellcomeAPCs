@@ -9,6 +9,12 @@ shinyUI(pageWithSidebar(
  # Sidebar with controls to select the variable to plot against mpg
  # and to specify whether outliers should be included
  sidebarPanel(
+  # adjust CSS to reduce size of selection boxes and width of sidepanel
+  tags$head(
+   tags$style(type="text/css", "select { width: 150px; }"),
+   tags$style(type='text/css', ".row-fluid .span4 { width: 15%; }")
+  ),
+  
   selectInput("type", "Plot data by:",
               list("Journal" = "jrnl",
                    "Publisher" = "pub")),
