@@ -49,7 +49,7 @@ shinyServer(function(input, output) {
               + geom_errorbar(aes(ymin=mean-sd, ymax=mean+sd), width=.1) 
               + geom_point()
               + scale_x_discrete(limits = head(pub.dat[order(pub.dat$mean,decreasing=input$decreasing),1],n=numberToPlot()))
-              + scale_y_continuous(name="Mean Cost (GBP)")
+              + scale_y_continuous(name="Mean Cost (GBP, +/- s.d.)")
               + coord_flip()
         )
       } else {
@@ -66,7 +66,7 @@ shinyServer(function(input, output) {
               + geom_errorbar(aes(ymin=mean-sd, ymax=mean+sd), width=.1) 
               + geom_point()
               + scale_x_discrete(limits = head(jrnl.dat[order(jrnl.dat$mean,decreasing=input$decreasing),1],n=numberToPlot()))
-              + scale_y_continuous(name="Mean Cost (GBP)")
+              + scale_y_continuous(name="Mean Cost (GBP, +/- s.d.)")
               + coord_flip()
         )
       } else {
